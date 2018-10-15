@@ -13,10 +13,10 @@ class Nav extends React.Component {
                 <h1 className="title"> Unibooks </h1>
 
                 <div className="formWrapper">
-                    <form class="form-inline">
-                        <button class="btn my-2 my-sm-0" type="submit">
+                    <form className="form-inline">
+                        <button className="btn my-2 my-sm-0" type="submit">
                             <i className="fas fa-search"></i></button>
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search for books.." aria-label="Search" />
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search for books.." aria-label="Search" />
 
                     </form>
                 </div>
