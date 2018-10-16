@@ -1,4 +1,4 @@
-//Navbar component
+//Navbar component - Tor
 import React from 'react';
 
 
