@@ -47,11 +47,14 @@ h1{
 .formWrapper{
   display: flex;
   flex-direction: column;
-  position: relative;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .form-inline{
   flex-flow: nowrap;
+  
 }
 
 @media only screen and (max-width: 600px) {
