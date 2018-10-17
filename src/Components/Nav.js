@@ -24,7 +24,9 @@ class Nav extends React.Component {
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
+
                         <a className="nav-link active" href="#" >Login/Register</a>
+
                     </li>
                 </ul>
 
