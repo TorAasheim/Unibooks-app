@@ -57,6 +57,18 @@ h1{
   
 }
 
+.col{
+  display: flex;
+  padding: 10px;
+  flex-flow: flow;
+}
+
+.card{
+  margin: 5px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
   .navbar{
@@ -67,6 +79,10 @@ h1{
   .formWrapper{
     flex-direction: row;
     align-items: center;
+  }
+
+  .col{
+    flex-direction: column;
   }
 
   
