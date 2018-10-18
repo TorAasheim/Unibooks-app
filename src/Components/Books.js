@@ -20,7 +20,9 @@ class Books extends React.Component {
             let books = snap.val();
             let newState = [];
             for (let book in books) {
+                console.log(books[book]['Img'])
                 newState.push({
+                    img: books[book]['Img'],
                     title: books[book]['Title'],
                     description: books[book]['Description'],
                     price: `${books[book]['Price']},-`
@@ -42,11 +44,11 @@ class Books extends React.Component {
 
             <div className="container">
                 <div className="row">
-
                     <div className="col">
                         {this.state.books.map((book) => {
                             return (
                                 <div className="card" key={book.title}>
+                                    <img className="card-img-top img-fluid" src={book.img} alt="Card image cap"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">{book.title}</h5>
                                         <p className="card-text">{book.description}</p>
