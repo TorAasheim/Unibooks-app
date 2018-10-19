@@ -60,7 +60,6 @@ class Books extends React.Component {
                         }
                     </div>
                 </div>
-
             </div>
 
         )
