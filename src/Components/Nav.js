@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -8,9 +9,13 @@ class Nav extends React.Component {
 
         return (
 
-            <nav className="navbar navbar-dark">
+            <nav className="navbar">
 
-                <h1 className="title"> Unibooks </h1>
+                <div className="nav-item header">
+                    <NavLink to='/' >
+                        <h1 className="title">  Unibooks </h1>
+                    </NavLink>
+                </div>
 
                 <div className="formWrapper">
                     <form className="form-inline">
@@ -24,10 +29,17 @@ class Nav extends React.Component {
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
-
-                        <a className="nav-link active" href="#" >Login/Register</a>
-
+                        <NavLink to="/LoginUser" activeClassName='active'>
+                            <a href="#" className="nav-link">Log in</a>
+                        </NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink to='/RegisterBook' activeClassName='active'>
+                            <a href="#" className="nav-link"> Register a Book </a>
+                        </NavLink>
+                    </li>
+
+
                 </ul>
 
             </nav>

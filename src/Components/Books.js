@@ -3,6 +3,17 @@ import fire from '../utils/api';
 
 
 
+function AddBooksButton() {
+
+
+    return (
+
+        <button type="button" class="btn btn-info">Add book</button>
+
+    )
+
+}
+
 class Books extends React.Component {
 
     constructor(props) {
@@ -60,6 +71,7 @@ class Books extends React.Component {
                         }
                     </div>
                 </div>
+
             </div>
 
         )

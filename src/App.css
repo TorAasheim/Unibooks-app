@@ -31,9 +31,19 @@ h1{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   margin: -1;
- 
-  
-  
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: #d2d2d2
 }
 
 .form-control{
@@ -70,7 +80,7 @@ h1{
 }
 
 .card-img-top{
-  height: 450px;
+  height: 400px;
   width: auto;
 }
 
