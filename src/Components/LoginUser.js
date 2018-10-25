@@ -13,18 +13,20 @@ class LoginUser extends React.Component {
   render() {
     return (
 
-      <div>
-        <form>
-          <div className="form-group">
-            <label htmlFor="inputEmail">Email</label>
-            <input type="email" className="form-control" placeholder="Enter email.." />
-          </div>
-          <div className="form-group">
-            <label htmlFor="inputPassword">Password</label>
-            <input type="passowrd" className="form-control" placeholder="Password.." />
-          </div>
-          <button className="btn">Submit</button>
-        </form>
+      <div className="container">
+        <div className="login-container">
+          <form>
+            <div className="form-group">
+              <label htmlFor="inputEmail">Email</label>
+              <input type="email" className="form-control user-input" placeholder="Enter email.." />
+            </div>
+            <div className="form-group">
+              <label htmlFor="inputPassword">Password</label>
+              <input type="passowrd" className="form-control user-input" placeholder="Password.." />
+            </div>
+            <button className="btn btn-submit-custom">Submit</button>
+          </form>
+        </div>
       </div>
 
 

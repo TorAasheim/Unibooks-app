@@ -54,7 +54,22 @@ a:hover{
  
 }
 
+.user-input{
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 5px;
 
+}
+
+.login-container{
+  padding: 20px;
+}
+
+.btn-submit-custom{
+  background: #009999;
+  border-radius: 5px;
+  color: white;
+}
 
 .formWrapper{
   display: flex;
