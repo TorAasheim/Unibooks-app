@@ -65,6 +65,19 @@ a:hover{
   padding: 20px;
 }
 
+.jumbotron{
+  margin: 10px;
+}
+
+.login-heading{
+  color: #188181;
+}
+
+.book-form{
+  border-color: gray;
+  border-style: solid;
+}
+
 .btn-submit-custom{
   background: #009999;
   border-radius: 5px;
