@@ -21,7 +21,7 @@ class Nav extends React.Component {
                     <form className="form-inline">
                         <button className="btn my-2 my-sm-0" type="submit">
                             <i className="fas fa-search"></i></button>
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search for books.." aria-label="Search" />
+                        <input className="form-control mr-sm-2 form-search" type="search" placeholder="Search for books.." aria-label="Search" />
 
                     </form>
                 </div>

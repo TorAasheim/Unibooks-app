@@ -10,21 +10,37 @@ class RegisterBook extends React.Component {
         return (
 
             <div className="container">
-
-                <div className="form-group">
-                    <label htmlFor="bookTitle">Title</label>
-                    <input type="text" className='form-control book-form' placeholder='Book title' />
-
-                    <div className="input-group mb-3">
-
-                        <div className="custom-file">
-                            <input type="file" className="custom-file-input" />
-                            <label htmlFor="inputGroupFile" className="custom-file-label">Upload a picture of your book</label>
+                <div className="jumbotron jumbotron-form">
+                    <form action="">
+                        <h1 className="display-6 login-heading">Register a book</h1>
+                        <div className="form-group">
+                            <label htmlFor="bookTitle">Title</label>
+                            <input type="text" className='form-control book-form' placeholder='Book title' />
                         </div>
-                        <div className="input-group-append">
-                            <span className="input-group-text">Upload</span>
+
+                        <div className="form-group">
+                            <label htmlFor="bookDescription">Description</label>
+                            <input type="text" className='form-control book-form' placeholder='Book description' />
                         </div>
-                    </div>
+
+                        <div className="form-group">
+                            <label htmlFor="bookPrice">Price</label>
+                            <input type="text" className='form-control book-form' placeholder='Book price' />
+                        </div>
+
+                        <div className="form-group">
+                            <div className="input-group mb-3">
+                            </div>
+
+                            <div className="custom-file">
+                                <input type="file" className="custom-file-input" />
+                                <label htmlFor="inputGroupFile" className="custom-file-label">Upload a picture of your book</label>
+                            </div>
+                            <div className="input-group-append">
+                                <span className="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
