@@ -1,21 +1,37 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Nav from './Nav.js';
+import Books from './Books.js';
+import RegisterBook from './RegisterBook';
+import LoginUser from './LoginUser';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 
 
 
 class App extends Component {
+
+
+
+
   render() {
+
     return (
 
-      <div className="main-container">
-        <Nav />
-        <div className="container">
 
+      <Router>
+        <div className="main-container">
+          <Nav />
+
+          <Switch>
+            <Route exact path='/' component={Books} />
+            <Route exact path="/RegisterBook" component={RegisterBook} />
+            <Route path='/LoginUser' component={LoginUser} />
+          </Switch>
         </div>
-      </div>
+      </Router>
 
     );
   }

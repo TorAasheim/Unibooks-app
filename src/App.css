@@ -4,6 +4,8 @@ h1{
   color: white;
 }
 
+
+
 .navbar{
   background: #009999;
   align-items: center;
@@ -20,7 +22,7 @@ h1{
 }
 
 .nav-link:hover{
-  color: gray;
+  color: rgb(226, 226, 226);
   text-decoration: none;
 }
 
@@ -29,20 +31,67 @@ h1{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   margin: -1;
- 
-  
-  
+
 }
 
-.form-control{
-  border-top-left-radius: 0;
+a:hover{
+  text-decoration: none;
+}
+
+.nav-link{
+  color: white;
+}
+
+
+.form-search{
+   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-color: #fff;
   border-style: hidden;
- 
 }
 
 
+
+.user-input{
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 5px;
+
+}
+
+.login-container{
+  padding: 20px;
+}
+
+.jumbotron{
+  margin: 20px;
+}
+
+.login-heading{
+  color: #188181;
+}
+
+.custom-file-input{
+  background: #009999;
+}
+
+.book-form{
+  border-color: #ccc;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.btn-submit-custom{
+  background: #009999;
+  border-radius: 5px;
+  color: white;
+}
+
+.input-group-text{
+  background: #009999;
+  color: white;
+
+}
 
 .formWrapper{
   display: flex;
@@ -57,7 +106,30 @@ h1{
   
 }
 
-@media only screen and (max-width: 600px) {
+
+
+.col{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+
+}
+
+.card-img-top{
+  height: 450px;
+  width: auto;
+}
+
+.card{
+  margin: 5px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
 
   .navbar{
     flex-direction: column;
@@ -68,5 +140,8 @@ h1{
     flex-direction: row;
     align-items: center;
   }
+
+
+  
 
 }
