@@ -22,7 +22,7 @@ h1{
 }
 
 .nav-link:hover{
-  color: gray;
+  color: rgb(226, 226, 226);
   text-decoration: none;
 }
 
@@ -42,9 +42,6 @@ a:hover{
   color: white;
 }
 
-.nav-link:hover{
-  color: #d2d2d2
-}
 
 .form-search{
    border-top-left-radius: 0;
@@ -93,6 +90,7 @@ a:hover{
 .input-group-text{
   background: #009999;
   color: white;
+
 }
 
 .formWrapper{
@@ -119,7 +117,7 @@ a:hover{
 }
 
 .card-img-top{
-  height: 400px;
+  height: 450px;
   width: auto;
 }
 
