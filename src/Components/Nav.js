@@ -38,7 +38,7 @@ class Nav extends React.Component {
                             <a href="#" className="nav-link"> Register a Book </a>
                         </NavLink>
                     </li>
-
+                    
 
                 </ul>
 

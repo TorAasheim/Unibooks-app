@@ -1,5 +1,6 @@
 import React from 'react';
 import fire from '../utils/api';
+import { Link } from 'react-router-dom';
 
 
 
@@ -58,6 +59,7 @@ class Books extends React.Component {
                     <div className="col">
                         {this.state.books.map((book) => {
                             return (
+                              <Link to='/Book'>
                                 <div className="card" key={book.title}>
                                     <img className="card-img-top img-fluid" src={book.img} alt="Card image cap"></img>
                                     <div className="card-body">
@@ -65,7 +67,9 @@ class Books extends React.Component {
                                         <p className="card-text">{book.description}</p>
                                         <p className="card-text">{book.price}</p>
                                     </div>
+
                                 </div>
+                                </Link>
                             );
                         })
                         }
